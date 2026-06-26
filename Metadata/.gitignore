@@ -1,0 +1,24 @@
+# Ignore target compilation outputs
+target/
+*.class
+*.jar
+
+# Ignore IDE configuration setups
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+
+# Ignore local heavy media test streams used for extraction verification
+*.mp4
+*.mov
+*.avi
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# OS generated clutter
+Thumbs.db
+.DS_Store
